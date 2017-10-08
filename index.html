@@ -10,8 +10,23 @@
     <title>Weather Wolf</title>
     <!-- Open Sans -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link type="text/css" href="index.css" rel="stylesheet">
+    <!-- JQuery and JQuery UI CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- Skycons javascript file -->
+    <script src="js/skycons.js"></script>
+    <!-- Google Charts API -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- Date Picker Stuff -->
+    <link  href="src/css/datepicker.css" rel="stylesheet">
+    <script src="src/js/datepicker.js"></script>
+
 </head>
 <body>
 <div class="container-fluid" id="main-container">
@@ -39,6 +54,7 @@
         <h2 id="cur-temp" class="header-name"></h2>
         <p id="cur-status" class="header-info current-weather-text"></p>
         <p id="cur-precip" class="header-info current-weather-text"></p>
+        <p class="header-info current-weather-text">Current Weather</p>
     </div>
 
     <!-- Current Weekly Weather Forecast-->
@@ -96,21 +112,6 @@
         </div>
     </div>
 </div>
-
-<!--Bootstrap CDN-->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- JQuery and JQuery UI CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<!-- Skycons javascript file -->
-<script src="js/skycons.js"></script>
-<!-- Google Charts API -->
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<!-- Date Picker Stuff -->
-<link  href="src/css/datepicker.css" rel="stylesheet">
-<script src="src/js/datepicker.js"></script>
 <!-- Custom JavaScript for this theme -->
 <script src="js/index.js"></script>
 </body>
