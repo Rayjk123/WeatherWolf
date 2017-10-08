@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: transparent;
+    border-color: transparent;
+    width: 100%;
+    margin : 0;
+    padding: 0;
+}
+
+hr {
+    max-width: 200px;
+    border-width: 5px;
+    border-color: rgb(52, 152, 219);
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.navbar-collapse {
+    background: transparent;
+    border-color: transparent;
+}
+
+.jumbotron {
+    clear: both;
+}
+
+.navbar-inner {
+    background: transparent;
+}
+
+.masthead {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/blue-turquoise-gradient-polygon-shaped-background-zoomed-in-and-zoomed-out-in-one-motion_nj5dnqsrl__F0000.png');
+}
+
+.masthead .container {
+    padding: -10px;
+    margin: 0;
+}
+
+.header-name {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header-image {
+    margin-bottom: 25px;
+}
+
+.header-content {
+    text-align: center;
+    color: white;
+}
+
+.header-info {
+    color: whitesmoke;
+    font-size: 23px;
+}
+
+.top-background {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-size:cover;
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/blue-turquoise-gradient-polygon-shaped-background-zoomed-in-and-zoomed-out-in-one-motion_nj5dnqsrl__F0000.png');
+    width: 100%;
+    height: 80%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.weather {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.weekly {
+    background-color: deepskyblue;
+    /*background-image: url('http://ak9.picdn.net/shutterstock/videos/18932999/thumb/1.jpg');*/
+}
+
+.border-midnightblue {
+    border-color: gray;
+}
+
+.current-weather-text {
+    color: rgb(51, 51, 51);
+}
+
+.padding-bottom {
+    padding-bottom: 60px;
+}
+
+.padding-bottom-more {
+    padding-bottom: 100px;
+}
+
+.error-text {
+    color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: block;
+}
+
+.nav-link {
+    color: white;
+}
+
+#main-container {
+    padding: 0;
+}
+
+#mainNav {
+    background: transparent;
+    border: none;
+    clear: both;
+}
+
+#datepicker {
+    padding: 3px;
+    padding-left: 10px;
+}

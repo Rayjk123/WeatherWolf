@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Weather Web App for Bluewolf coding assignment">
+    <meta name="author" content="Branden Lee">
+
+    <title>Weather Wolf</title>
+    <!-- Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link type="text/css" href="index.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid" id="main-container">
+    <!-- Navigation Scrolling didn't work-->
+
+    <!-- Introduction Header -->
+    <section id="about">
+        <header class="masthead">
+            <div class="container-fluid">
+                <div class="header-content">
+                    <img class="header-image" src="img/sun-smaller.png" alt="sun icon"/>
+                    <div class="header-text">
+                        <span class="header-name">WEATHER WOLF</span>
+                        <hr/>
+                        <p class="header-info">The best website for quick and reliable weather forecasts that are just a howl away</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- Current Weather Status -->
+    <div class="container-fluid weather">
+        <canvas id="icon"></canvas>
+        <h2 id="cur-temp" class="header-name"></h2>
+        <p id="cur-status" class="header-info current-weather-text"></p>
+        <p id="cur-precip" class="header-info current-weather-text"></p>
+    </div>
+
+    <!-- Current Weekly Weather Forecast-->
+    <div class="container-fluid weather weekly">
+        <div class="row padding-bottom text-center">
+            <span class="header-name header-content">Weekly Weather</span>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <canvas id="weekly-icon"></canvas>
+                <p id="weekly-weather-status" class="header-info header-content"></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="chart_div"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                <div id="chart_div_rain"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="chart_div_wind"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Previous Weather information -->
+    <div class="container-fluid weather padding-bottom-more">
+        <div class="row">
+            <span class="header-name">Previous Weather</span>
+        </div>
+        <div class="row padding-bottom">
+            <p class="header-info current-weather-text">Enter a date to see previous weather </p>
+            <input type="text" placeholder="Please Enter a Date" id="datepicker">
+            <button id="search-past" class="btn-primary" onclick="search_past()">Search Weather</button>
+            <p class="error-text"></p>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                <canvas id="prev-weather-icon"></canvas>
+                <p id="prev-weather-status" class="header-info current-weather-text"></p>
+                <p id="prev-weather-temp" class="header-name"></p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="chart_div2"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                <div id="chart_div2a"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="chart_div2b"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Bootstrap CDN-->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- JQuery and JQuery UI CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- Skycons javascript file -->
+<script src="js/skycons.js"></script>
+<!-- Google Charts API -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Date Picker Stuff -->
+<link  href="src/css/datepicker.css" rel="stylesheet">
+<script src="src/js/datepicker.js"></script>
+<!-- Custom JavaScript for this theme -->
+<script src="js/index.js"></script>
+</body>
+</html>
