@@ -1,8 +1,10 @@
-A disruptive new weather data startup, SkyCast Inc., reached out to you for your help with a
-small development project. They are looking to change the way people read weather forecasts
-and would like a stable base to iterate from.
+# Weather Wolf
+**Weather Wolf** is a website made to display weather information based on user location in a clean and easy way. The website uses the SkyCast API along with the Google Geolocation API to allow users to retrieve current and historic weather data based on the user's current location. 
 
-APIs to Use
-SkyCast is looking to leverage a weather API (https://developer.forecast.io) combined with
-a geolocation API (https://developers.google.com/maps) to allow users to retrieve current
-as well as historic data about any location that the users search.
+## Screen Shots
+### Intro Webpage
+![Main Webpage](screenshots/MainScreen.png?raw=true "Main Webpage Intro")
+### Current Weather
+![Current Weather](screenshots/CurrentWeather.png?raw=true "Main Webpage Intro")
+### Weekly Weather
+![Weekly Weather](screenshots/WeeklyWeather.png?raw=true "Main Webpage Intro")
